@@ -24,14 +24,13 @@ The implementation follows these steps:
    - Keys $K$
    - Values $V$
 3. Compute attention scores using the scaled dot product:
+   
    ![Alt text](../images/scaled_dot_product.jpg)
 
-4. Apply softmax to convert scores into attention weights.
-5. Compute the weighted sum of values:
+5. Apply softmax to convert scores into attention weights.
+6. Compute the weighted sum of values:
+   
    ![Alt text](../images/weighted_sum.jpg)
-   $$
-   \text{output}_i = \sum_j \alpha_{ij} v_j
-   $$
 
 Where $\alpha_{ij}$ are the attention weights.
 
