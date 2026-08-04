@@ -25,7 +25,7 @@ The implementation follows these steps:
    - Values $V$
 3. Compute attention scores using the scaled dot product:
 
-   ![Alt text](images/scaled_dot_product.jpg)
+   ![Alt text](../images/scaled_dot_product.jpg)
 
    $$
    \text{score}(q_i, k_j) = \frac{q_i \cdot k_j}{\sqrt{d_k}}
