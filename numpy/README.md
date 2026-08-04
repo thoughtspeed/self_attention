@@ -32,9 +32,8 @@ The implementation follows these steps:
    ![Alt text](../images/softmax.jpg)
 
     - zᵢ → input score (logit) for class i
-    - e^(zᵢ) → exponentiated score
+    - eᶻⁱ → exponentiated score
     - Σⱼ e^(zⱼ) → normalization term (sum over all classes j)
-    - K → total number of classes
     - softmax(zᵢ) → probability of class i
       
 7. Compute the weighted sum of values:
