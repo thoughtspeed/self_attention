@@ -31,6 +31,8 @@ The implementation follows these steps:
 
    ![Alt text](../images/softmax.jpg)
 
+zᵢ → the input score for class i
+
       
 7. Compute the weighted sum of values:
    
