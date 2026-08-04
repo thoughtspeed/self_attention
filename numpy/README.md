@@ -28,7 +28,11 @@ The implementation follows these steps:
    ![Alt text](../images/scaled_dot_product.jpg)
 
 5. Apply softmax to convert scores into attention weights.
-6. Compute the weighted sum of values:
+
+   ![Alt text](../images/softmax.jpg)
+
+      
+7. Compute the weighted sum of values:
    
    ![Alt text](../images/weighted_sum.jpg)
 
