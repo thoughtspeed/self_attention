@@ -1,4 +1,4 @@
-# Self-Attention in NumPy
+<img width="342" height="53" alt="image" src="https://github.com/user-attachments/assets/528c3ce1-4bbf-4876-8bfb-3f934978e051" /># Self-Attention in NumPy
 
 ## Overview
 
@@ -24,6 +24,8 @@ The implementation follows these steps:
    - Keys $K$
    - Values $V$
 3. Compute attention scores using the scaled dot product:
+
+   ![Alt text](images/scaled_dot_product.jpg)
 
    $$
    \text{score}(q_i, k_j) = \frac{q_i \cdot k_j}{\sqrt{d_k}}
